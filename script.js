@@ -57,6 +57,14 @@ console.log( counter(7) ) // 11
 console.log( counter(-5) ) // 6
 */
 
+/*
+Question4
+4. write a paragraph about iife. Why should we use iife?
+An Immediate-Invoked Function Expression (IIFE) is a function that is executed instantly after it's defined. This pattern has been used to alias global variables, make variables and functions private and to ensure asynchronous code in loops are executed correctly.
+
+While popular, we have seen how changes in ES6 can eliminate the need to use IIFEs in modern JavaScript. However, mastering this pattern also gives us a deeper understanding of scope and closure, and will be especially useful in maintaining legacy JavaScript code.
+*/
+
 function counterMaker() {
   let counterValue;
   return function counterReturn(input = 0) {
