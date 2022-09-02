@@ -1,0 +1,10 @@
+@media (max-width: 750px) {
+  .grid-box {
+    grid-template-columns: 1fr;
+    margin: 100px auto;
+  }
+
+  .box {
+    padding: 40px 40px;
+  }
+}
