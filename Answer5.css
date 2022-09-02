@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #343332;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+h2,
+h3 {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 40px;
+}
+
+p {
+  justify-self: center;
+  margin-bottom: 20px;
+}
+
+.header {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  background-color: #343332;
+  /* justify-items: center; */
+  align-items: center;
+  padding-block: 50px;
+}
+
+.header-child,
+.service-child {
+  /* text-justify: inherit; */
+  /* justify-content: center; */
+  width: 700px;
+  text-align: center;
+  /* justify-self: center; */
+  /* display: block; */
+}
+
+.button {
+  width: 180px;
+  height: 70px;
+  background-color: #343332;
+  border: 1px gray solid;
+  border-radius: 2px;
+  /* font-weight: bold; */
+  font-size: 17px;
+  color: white;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #444342;
+}
+
+.description {
+  background-color: #e9eae9;
+  padding-block: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #444;
+}
+
+.two-cloumns {
+  width: 700px;
+  text-align: center;
+  column-count: 2;
+}
+
+.option {
+  display: flex;
+  background-color: #323333;
+  justify-content: center;
+  gap: 20px;
+  padding-block: 10px;
+}
+
+.option-child {
+  width: 200px;
+  flex-shrink: 0;
+  margin-block: 20px;
+  background-color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.option-child p {
+  margin: 5px;
+  text-align: center;
+}
+
+.service {
+  color: 444;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  /* justify-items: center; */
+  align-items: center;
+  padding-block: 50px 30px;
+}
+
+.companyref {
+  display: flex;
+  color: #fff;
+}
+
+.companyref-child,
+.footer-child {
+  padding: 40px 20px;
+  text-align: center;
+}
+.about-company {
+  background-color: #343333;
+}
+
+.contact-us {
+  background-color: #2690d4;
+}
+
+.footer {
+  background-color: #010000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-child strong {
+  color: #2690d4;
+  font-weight: normal;
+}
+
+.footer-child {
+  padding: 20px 20px;
+  text-align: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
