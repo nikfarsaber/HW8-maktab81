@@ -37,7 +37,7 @@ p {
 .service-child {
   /* text-justify: inherit; */
   /* justify-content: center; */
-  width: 700px;
+  width: 80%;
   text-align: center;
   /* justify-self: center; */
   /* display: block; */
@@ -69,7 +69,7 @@ p {
 }
 
 .two-cloumns {
-  width: 700px;
+  width: 80%;
   text-align: center;
   column-count: 2;
 }
