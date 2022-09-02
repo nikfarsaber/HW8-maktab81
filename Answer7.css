@@ -11,21 +11,21 @@ body {
 body::after {
   content: "";
   background-color: rgb(42, 152, 255);
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   position: fixed;
-  top: -100px;
-  right: -100px;
+  top: -150px;
+  right: -150px;
   border-radius: 50%;
 }
 body::before {
   content: "";
   background-color: rgb(42, 152, 255);
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   position: fixed;
-  bottom: -100px;
-  left: -100px;
+  bottom: -150px;
+  left: -150px;
   border-radius: 50%;
 }
 
@@ -48,7 +48,7 @@ svg {
   gap: 20px;
   position: relative;
   background: #fff;
-  padding: 50px 20px;
+  padding: 60px 20px;
   align-items: center;
   box-shadow: 0 0 10px 10px rgb(245, 245, 245);
 }
@@ -64,7 +64,7 @@ svg {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  border: 1px solid gainsboro;
+  border: 1px solid rgb(239, 239, 239);
   background: #fff;
   text-align: center;
   padding-top: 10px;
