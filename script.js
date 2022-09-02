@@ -44,3 +44,35 @@ function callback(elem) {
 
 //
 //
+/*
+Question3
+3. write a function which uses closure scope to cout up a variable. warning: you should not declare any variable except counter in global scope example:
+const counter = counterMaker()
+console.log( counter() ) // 0
+console.log( counter() ) // 0
+console.log( counter(1) ) // 1
+console.log( counter() ) // 1
+console.log( counter(3) ) // 4
+console.log( counter(7) ) // 11
+console.log( counter(-5) ) // 6
+*/
+
+function counterMaker() {
+  let counterValue;
+  return function counterReturn(input = 0) {
+    isNaN(+counterValue) ? (counterValue = 0) : (counterValue += input);
+    return counterValue;
+  };
+}
+
+// check answer
+// const counter = counterMaker();
+// console.log(counter());
+// console.log(counter());
+// console.log(counter(1));
+// console.log(counter());
+// console.log(counter(3));
+// console.log(counter(7));
+// console.log(counter(-5));
+//
+//
