@@ -13,20 +13,22 @@ body::after {
   background-color: rgb(42, 152, 255);
   width: 300px;
   height: 300px;
-  position: fixed;
+  position: absolute;
   top: -150px;
   right: -150px;
   border-radius: 50%;
+  z-index: 8;
 }
 body::before {
   content: "";
   background-color: rgb(42, 152, 255);
   width: 300px;
   height: 300px;
-  position: fixed;
+  position: absolute;
   bottom: -150px;
   left: -150px;
   border-radius: 50%;
+  z-index: 8;
 }
 
 svg {
@@ -50,7 +52,20 @@ svg {
   background: #fff;
   padding: 60px 20px;
   align-items: center;
+  z-index: 20;
+  position: relative;
+}
+
+.box::after {
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border-radius: 8px;
   box-shadow: 0 0 10px 10px rgb(245, 245, 245);
+  position: absolute;
+  z-index: 4;
 }
 
 .top-circle {
@@ -70,6 +85,7 @@ svg {
   padding-top: 10px;
   color: gray;
   /* vertical-align: middle; */
+  z-index: 8;
 }
 
 .box h3 {
